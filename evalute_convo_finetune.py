@@ -1,4 +1,4 @@
-import torch
+vimport torch
 import torch.nn as nn
 from torchvision import models, transforms
 from torchvision.datasets import ImageFolder
@@ -81,10 +81,10 @@ print(confusion_matrix(all_labels, all_preds))
 
 # Save misclassified file paths
 if misclassified:
-    with open("misclassified_field.txt", "w") as f:
+    with open("ev_misclassified_field.txt", "w") as f:
         for path in misclassified:
             f.write(f"{path}\n")
-    print(f"\n❌ Misclassified {len(misclassified)} images. Saved to misclassified_field.txt")
+    print(f"\n❌ Misclassified {len(misclassified)} images. Saved to ev_misclassified_field.txt")
 else:
     print("\n✅ No misclassifications!")
     
