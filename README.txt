@@ -5,7 +5,7 @@ This project uses a pretrained ConvNeXt-Base model from torchvision for binary i
 ## 🧠 Methodology
 
 - Base model: `ConvNeXt-Base` pretrained on ImageNet
-- Encoder kept **frozen** during training
+- Encoder kept frozen during training
 - Trained a `Linear(1024, 2)` classification head on top
 - Efficient and fast — ideal for small datasets or fast prototyping
 
