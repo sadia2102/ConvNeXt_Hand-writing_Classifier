@@ -81,8 +81,8 @@ data/
 │ ├── real/
 │ └── fake/
 └── field/
-├── real/
-└── fake/
+  ├── real/
+  └── fake/
 
 
 ```bash command
